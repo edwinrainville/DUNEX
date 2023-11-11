@@ -1,0 +1,5 @@
+# Ignore these files in git repo
+./Build/
+./output/
+coawstM
+ocean_dunex_grd.nc
