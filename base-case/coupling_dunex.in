@@ -56,8 +56,8 @@
 ! The Wav program needs multiple input files, one for each grid.
 
    ATM_name = atmos.in               ! atmospheric model, not used yet
-   WAV_name = /gscratch/derakhti/users/erainvil/dunex/swan_dunex.in    ! wave model
-   OCN_name = /gscratch/derakhti/users/erainvil/dunex/ocean_dunex.in   ! ocean model
+   WAV_name = /gscratch/derakhti/users/erainvil/dunex/base-case/swan_dunex.in    ! wave model
+   OCN_name = /gscratch/derakhti/users/erainvil/dunex/base-case/ocean_dunex.in   ! ocean model
    HYD_name = hydro.namelist                              ! hydro model
 
 ! Sparse matrix interpolation weights files. You have 2 options:
@@ -71,7 +71,7 @@
 !           weights. This file is created using the code in
 !           Lib/SCRIP_COAWST/scrip_coawst[.exe]
 
-   SCRIP_COAWST_NAME = /gscratch/derakhti/users/erainvil/dunex/scrip_weights_dunex.nc
+   SCRIP_COAWST_NAME = /gscratch/derakhti/users/erainvil/dunex/base-case/scrip_weights_dunex.nc
 
 ! Option 2: THIS OPTION WILL BE REMOVED IN FUTURE VERSIONS.
 !           IF you set "SCRIP_WEIGHT_OPTION = 2", then enter 

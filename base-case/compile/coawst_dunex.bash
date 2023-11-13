@@ -130,7 +130,7 @@ export   ROMS_APPLICATION=${COAWST_APPLICATION}
 # Set a local environmental variable to define the path to the directories
 # where all this project's files are kept.
 export   MY_ROOT_DIR=/gscratch/derakhti/shared/COAWST
-export   MY_PROJECT_DIR=/gscratch/derakhti/users/erainvil/dunex
+export   MY_PROJECT_DIR=/gscratch/derakhti/users/erainvil/dunex/base-case/
 
 # The path to the user's local current ROMS source code.
 # If using svn locally, this would be the user's Working Copy Path (WCPATH).

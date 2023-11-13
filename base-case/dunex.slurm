@@ -38,7 +38,7 @@
 
 ## Specify the working directory for this job
 
-#SBATCH --chdir=/gscratch/derakhti/users/erainvil/dunex
+#SBATCH --chdir=/gscratch/derakhti/users/erainvil/dunex/base-case/
 
 #SBATCH --export=all
 
@@ -48,6 +48,4 @@ module use /gscratch/derakhti/shared/module
 module load netcdf_c_gcc9
 module load netcdf_fortran_gcc9
 
-mpirun -np 16 /gscratch/derakhti/users/erainvil/dunex/coawstM /gscratch/derakhti/users/erainvil/dunex/coupling_dunex.in > /gscratch/derakhti/users/erainvil/dunex/logs/log.out 2>&1
-
-rm slurm*.out
+mpirun -np 16 /gscratch/derakhti/users/erainvil/dunex/base-case/coawstM /gscratch/derakhti/users/erainvil/dunex/base-case/coupling_dunex.in > /gscratch/derakhti/users/erainvil/dunex/base-case/logs/log.out 2>&1

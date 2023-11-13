@@ -1003,7 +1003,7 @@ Dout(iTvdif) == F F     ! temp_vdiff, ...    vertical diffusion
 
 ! Input NetCDF file names, [1:Ngrids].
 
-     GRDNAME == /gscratch/derakhti/users/erainvil/dunex/ocean_dunex_grd.nc 
+     GRDNAME == /gscratch/derakhti/users/erainvil/dunex/base-case/grids/ocean_dunex_grd.nc 
      ININAME == ocean_ini.nc
      ITLNAME == ocean_itl.nc
      IRPNAME == ocean_irp.nc

@@ -14,7 +14,7 @@
 
 #SBATCH --mem=100G
 
-#SBATCH --chdir=/gscratch/derakhti/users/erainvil/dunex/compile
+#SBATCH --chdir=/gscratch/derakhti/users/erainvil/dunex/base-case/compile
 
 #SBATCH --export=all
 
@@ -26,4 +26,4 @@ module load netcdf_fortran_gcc9
 export MCT_INCDIR=/gscratch/derakhti/shared/COAWST/MCT/include
 export MCT_LIBDIR=/gscratch/derakhti/shared/COAWST/MCT/lib
 
-./coawst_dunex.bash -j 8 1>/gscratch/derakhti/users/erainvil/dunex/compile/info.log 2>/gscratch/derakhti/users/erainvil/dunex/compile/warning.log
+./coawst_dunex.bash -j 8 1>/gscratch/derakhti/users/erainvil/dunex/base-case/compile/info.log 2>/gscratch/derakhti/users/erainvil/dunex/base-case/compile/warning.log
