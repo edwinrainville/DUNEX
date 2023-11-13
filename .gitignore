@@ -3,3 +3,5 @@
 ./output/
 coawstM
 ocean_dunex_grd.nc
+base-case/forcing/
+base-case/grids/
