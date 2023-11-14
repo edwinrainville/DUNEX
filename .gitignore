@@ -5,3 +5,6 @@ coawstM
 ocean_dunex_grd.nc
 base-case/forcing/
 base-case/grids/
+.DS_store
+./grid-setup/bathy_data/
+./grid-setup/mission_data/
